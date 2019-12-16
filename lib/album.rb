@@ -28,4 +28,8 @@ class Album
   def self.find(id)
     @@albums[id]
   end
+
+  def update(name)
+    @name = name
+  end
 end
